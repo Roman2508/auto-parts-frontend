@@ -21,7 +21,7 @@ export const useDeleteCategory = () => {
         queryKey: ["get categories for store dashboard"],
       })
       toast.success("Категорія видалена")
-      router.push(STORE_URL.categories(params.storeId))
+      // router.push(STORE_URL.categories(params.storeId))
     },
     onError() {
       toast.error("Помилка при видаленні категорії")

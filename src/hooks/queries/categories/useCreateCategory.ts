@@ -23,7 +23,7 @@ export const useCreateCategory = () => {
         queryKey: ["get categories for store dashboard"],
       })
       toast.success("Категория создана")
-      router.push(STORE_URL.categories(params.storeId))
+      // router.push(STORE_URL.categories(params.storeId))
     },
     onError() {
       toast.error("Помилка при створенні категорії")
